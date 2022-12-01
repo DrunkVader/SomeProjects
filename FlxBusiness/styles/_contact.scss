@@ -1,0 +1,69 @@
+@use "variables";
+
+/*Contact-Section*/
+
+#contact {
+  min-height: 90vh;
+  background: variables.$blue;
+}
+.form-wrapper {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-head {
+  font-size: 6rem;
+  font-weight: 400px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+}
+.contact-form {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form-input {
+  width: 60rem;
+  height: 5rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 0.1rem solid variables.$white;
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: variables.$grey;
+  letter-spacing: 0.1rem;
+  outline: none;
+}
+
+.contact-form-input:focus {
+  color: variables.$grey;
+  border: 0.1rem solid variables.$wood;
+}
+.contact-form-input::placeholder {
+  color: variables.$wood;
+}
+
+.contact-form-textarea {
+  height: 20rem;
+  resize: none;
+}
+.form-submit-btn {
+  width: 20rem;
+  height: 5rem;
+  background-color: variables.$white;
+  border: none;
+  font-size: 1.8rem;
+  color: variables.$black;
+  cursor: pointer;
+}

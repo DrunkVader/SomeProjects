@@ -1,0 +1,30 @@
+@use "variables";
+/*Footer*/
+footer {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  background-color: variables.$blue;
+  border: 1px solid variables.$white;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+  h5 {
+    font-family: "Roboto Serif", serif;
+    font-size: 1.6rem;
+  }
+  ul {
+    display: flex;
+    flex: 1 1 40rem;
+    list-style: none;
+    justify-content: flex-end;
+    p {
+      font-family: "Allura", sans-serif;
+      font-size: 2.5rem;
+      color: variables.$black;
+    }
+    li {
+      margin: 0 3rem;
+    }
+  }
+}
