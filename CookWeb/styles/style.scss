@@ -1,0 +1,42 @@
+@use "header";
+@use "maincontent";
+@use "contact";
+@use "footer";
+@use "variables";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap");
+
+/* Global Styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3.2rem;
+}
+h4 {
+  font-size: 3rem;
+}
+h5 {
+  font-size: 2rem;
+}
+li,
+button,
+p {
+  font-size: 2rem;
+}
