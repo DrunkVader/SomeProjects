@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculate your age in dog years</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="bg-info">
+    <div class="container mt-5">
+      <h1>Calculate your age in dog years</h1>
+      <form>
+        <div class="form-group">
+          <label for="age">Introduce your age in years:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="age"
+            placeholder="Write your age here"
+          />
+        </div>
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="calculate"
+          onclick="calculateDogAge()"
+        >
+          Calculate age in dog years
+        </button>
+      </form>
+      <div class="mt-5 row">
+        <div class="col-lg-6">
+          <h2 id="result"></h2>
+          <div class="text-center mx-auto">
+            <img
+              id="dog-image"
+              src=""
+              alt=""
+              class="rounded-circle img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
